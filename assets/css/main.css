@@ -2721,9 +2721,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			body {
 
-			}
 
 				body.homepage {
 					padding-top: 0;
@@ -2761,18 +2759,7 @@ input, select, textarea {
 				background-image: url("images/overlay.png");
 			}
 
-				#titleBar .title {
-					display: block;
-					position: relative;
-					font-family: 'Open Sans Condensed', sans-serif;
-					font-weight: 700;
-					text-transform: uppercase;
-					font-size: 1.25em;
-					line-height: 44px;
-					color: #fff;
-					z-index: 1000;
-					text-align: center;
-				}
+		
 
 				#titleBar .toggle {
 					text-decoration: none;
