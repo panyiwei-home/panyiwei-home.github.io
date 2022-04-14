@@ -2065,25 +2065,7 @@ input, select, textarea {
 				margin-right: 0.5em;
 			}
 
-/* Menu */
 
-	ul.menu {
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.menu li {
-			border-left: solid 1px #E7EAE8;
-			display: inline-block;
-			padding: 0 0 0 0.75em;
-			margin: 0 0 0 0.75em;
-		}
-
-			ul.menu li:first-child {
-				border-left: 0;
-				margin-left: 0;
-				padding-left: 0;
-			}
 
 /* Forms */
 
@@ -2732,6 +2714,7 @@ input, select, textarea {
 		/* Nav */
 
 			body {
+
 			}
 
 				body.homepage {
