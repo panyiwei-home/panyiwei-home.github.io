@@ -77,8 +77,11 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	
+
+
 	body {
-		background: #f2f5f3;
+		background: #fbfbfd;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2313,6 +2316,7 @@ input, select, textarea {
 				display: inline;
 				color: #C1CAC5;
 			}
+		
 
 /* Nav */
 
@@ -2461,6 +2465,7 @@ input, select, textarea {
 		background-size: auto, auto, cover;
 		z-index: 1;
 		padding: 11em 0;
+		background: #222222;
 	}
 
 		#banner .content {
