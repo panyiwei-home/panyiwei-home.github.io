@@ -28,6 +28,10 @@ body {
 	line-height: 0;
 }
 
+a, span {
+	color: #1d1d1f;
+}
+
 ol, ul {
 	list-style: none;
 }
