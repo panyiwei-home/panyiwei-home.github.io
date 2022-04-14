@@ -118,7 +118,7 @@ input, select, textarea {
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		text-decoration: none;
-		color: inherit;
+		color: #1d1d1f;
 	}
 
 	h2 {
