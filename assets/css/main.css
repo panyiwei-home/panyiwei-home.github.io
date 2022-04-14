@@ -2465,7 +2465,6 @@ input, select, textarea {
 		background-size: auto, auto, cover;
 		z-index: 1;
 		padding: 11em 0;
-		background: #222222;
 	}
 
 		#banner .content {
@@ -2521,8 +2520,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background: #fff;
-		border-top: solid 5px #b1ddab;
+		background: #fbfbfd;
+		border-top: solid 5px #222222;
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
