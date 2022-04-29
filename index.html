@@ -1,19 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>PanHub | 潘一苇的个人博客</title>
+    <style>
+        /* 引入本地字体 */
+        @font-face {
+            font-family: Arista2;
+            src: url("./Ubuntu.ttf");
+        }
+        @font-face {
+            font-family: Q;
+            src: url("./Quickens.otf");
+        }
+
+
+        body{
+            /* web 1920 */
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: rgb(255, 255, 255);
+        }
+        .top{
+            /* PanHub */
+            position: absolute;
+            width: 795px;
+            height: 279px;
+            top: 130px;
+            left: 563px;
+
+
+            color: rgb(255, 0, 0);
+            font-family: Arista2;
+            font-size: 200px;
+            font-weight: 400;
+            line-height: 230px;
+            letter-spacing: 0;
+            text-align: center;
+
+
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .end{
+            /* share my best for you */
+            position: absolute;
+            width: 850px;
+            height: 46px;
+            top: 400px;
+            left: 535px;
+
+            color: rgb(0, 0, 0);
+            font-family: Quicksand;
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 46px;
+            letter-spacing: 20px;
+            text-align: center;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <div id="top" class="top">
-        <div id="main" class="main"></div>
-        <div id="end" class="end"></div>
-    </div>
-
-    <div>
-        <div id="project" class="project"></div>
-        <div id="blog" class="blog"></div>
-    </div>
-
+    <div id="top" class="top">PanHub</div>
+    <div id="end" class="end">share my best for you</div>
 </body>
 </html>
