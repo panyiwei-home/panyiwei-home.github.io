@@ -61,10 +61,73 @@
             flex-direction: row;
             align-items: center;
         }
+        .blog_main{
+            /* blog_main */
+            position: absolute;
+            width: 1920px;
+            height: 540px;
+            top: 540px;
+            left: 0;
+            background: rgb(255, 255, 255);
+        }
+        .my_mind{
+            /* 画板 1 */
+            position: absolute;
+            width: 1500px;
+            height: 350px;
+            top: 35px;
+            left: 210px;
+
+
+            background: rgb(242, 242, 242);
+            border-radius: 30px;
+        }
+        .text{
+            /* 我的点子 */
+            position: absolute;
+            width: 319px;
+            height: 77px;
+            top: 14px;
+            left: 25px;
+
+
+            color: rgb(49, 55, 55)
+            font-family: Microsoft YaHei;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 66px;
+            letter-spacing: 0px;
+            text-align: center;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .mind{
+            /* 画板 2 */
+            position: absolute;
+            width: 1450px;
+            height: 220px;
+            top: 110px;
+            left: 25px;
+
+
+            background: rgb(255, 255, 255);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+        }
     </style>
 </head>
 <body>
     <div id="top" class="top">PanHub</div>
     <div id="end" class="end">share my best for you</div>
+    <div id="blog_main" class="blog_main">
+        <div id="my_mind" class="my_mind">
+            <div id="text" class="text">我的点子</div>
+            <div id="mind" class="mind"></div>
+        </div>
+        <div id="technology_blog" class="technology_blog"></div>
+        <div id="software" class="software"></div>
+    </div>
 </body>
 </html>
